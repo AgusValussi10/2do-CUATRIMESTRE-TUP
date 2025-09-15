@@ -6,6 +6,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Arreglos",
+            "request": "launch",
+            "mainClass": "CLASES.CLASE5.Arreglos",
+            "projectName": "2do-CUATRIMESTRE-TUP_4aa2b35f"
+        },
+        {
+            "type": "java",
+            "name": "Login",
+            "request": "launch",
+            "mainClass": "CLASES.CLASE5.Login",
+            "projectName": "2do-CUATRIMESTRE-TUP_4aa2b35f"
+        },
+        {
+            "type": "java",
+            "name": "FuncionesyProc",
+            "request": "launch",
+            "mainClass": "CLASES.CLASE5.FuncionesyProc",
+            "projectName": "2do-CUATRIMESTRE-TUP_4aa2b35f"
+        },
+        {
+            "type": "java",
+            "name": "Funcionesyproc",
+            "request": "launch",
+            "mainClass": "CLASES.CLASE5.Funcionesyproc",
+            "projectName": "2do-CUATRIMESTRE-TUP_4aa2b35f"
+        },
+        {
+            "type": "java",
+            "name": "funcionesyproc",
+            "request": "launch",
+            "mainClass": "funcionesyproc",
+            "projectName": "2do-CUATRIMESTRE-TUP_4aa2b35f"
+        },
+        {
+            "type": "java",
+            "name": "Operadores",
+            "request": "launch",
+            "mainClass": "Operadores",
+            "projectName": "2do-CUATRIMESTRE-TUP_4aa2b35f"
+        },
+        {
+            "type": "java",
+            "name": "LaBiblioteca",
+            "request": "launch",
+            "mainClass": "LaBiblioteca",
+            "projectName": "2do-CUATRIMESTRE-TUP_4aa2b35f"
+        },
+        {
+            "type": "java",
+            "name": "ComoEncadenar",
+            "request": "launch",
+            "mainClass": "ComoEncadenar",
+            "projectName": "2do-CUATRIMESTRE-TUP_4aa2b35f"
+        },
+        {
+            "type": "java",
             "name": "LaBiblioteca",
             "request": "launch",
             "mainClass": "LaBiblioteca",
