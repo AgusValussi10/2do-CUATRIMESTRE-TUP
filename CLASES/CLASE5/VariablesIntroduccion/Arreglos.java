@@ -1,7 +1,13 @@
-package CLASES.CLASE5;
+/*
+ * Crea un programa en Java que manipule números y arreglos. Declara una función duplicarNumero(int
+ * x) que intente duplicar el valor de un número. Declara otra función duplicarArreglo(int[] arr)
+ * que duplique el valor de cada elemento del arreglo. Desde main, prueba ambas funciones: Llama a
+ * duplicarNumero con un entero y muestra si cambió o no. Llama a duplicarArreglo con un arreglo y
+ * muestra si los valores cambiaron.
+ */
+package CLASES.CLASE5.VariablesIntroduccion;
 
 public class Arreglos {
-
     // Funcion que intenta duplicar un numero
     public static void duplicarNumero(int x) {
         x = x * 2;
@@ -41,4 +47,3 @@ public class Arreglos {
         System.out.println();
     }
 }
-

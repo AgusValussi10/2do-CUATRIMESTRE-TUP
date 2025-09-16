@@ -1,9 +1,15 @@
-package CLASES.CLASE5;
+/*
+ * Crea un programa en Java que simule una calculadora básica con funciones. 1. Define un
+ * procedimiento que muestre un menú con las operaciones: suma, resta, multiplicación y división. 2.
+ * Define una función para cada operación matemática que reciba dos números y devuelva el resultado.
+ * 3. Desde main, llama a las funciones según la opción ingresada por el usuario.
+ */
+
+package CLASES.CLASE5.VariablesIntroduccion;
 
 import java.util.Scanner;
 
 public class Calculadora {
-
     // Mostrar menú
     public static void mostrarMenu() {
         System.out.println("===== CALCULADORA BASICA =====");
@@ -85,3 +91,4 @@ public class Calculadora {
         sc.close();
     }
 }
+

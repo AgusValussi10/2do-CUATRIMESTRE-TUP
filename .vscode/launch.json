@@ -6,6 +6,174 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RegistroMascotas",
+            "request": "launch",
+            "mainClass": "CLASES.CLASE5.ArraysEstaticos.RegistroMascotas",
+            "projectName": "2do-CUATRIMESTRE-TUP_4aa2b35f"
+        },
+        {
+            "type": "java",
+            "name": "InventarioProductos",
+            "request": "launch",
+            "mainClass": "CLASES.CLASE5.ArraysEstaticos.InventarioProductos",
+            "projectName": "2do-CUATRIMESTRE-TUP_4aa2b35f"
+        },
+        {
+            "type": "java",
+            "name": "GestionEstudiantes",
+            "request": "launch",
+            "mainClass": "CLASES.CLASE5.ArraysEstaticos.GestionEstudiantes",
+            "projectName": "2do-CUATRIMESTRE-TUP_4aa2b35f"
+        },
+        {
+            "type": "java",
+            "name": "CaracteresEscapeFormato",
+            "request": "launch",
+            "mainClass": "CLASES.CLASE5.Cadenas.CaracteresEscapeFormato",
+            "projectName": "2do-CUATRIMESTRE-TUP_4aa2b35f"
+        },
+        {
+            "type": "java",
+            "name": "SubcadenaBusqueda",
+            "request": "launch",
+            "mainClass": "CLASES.CLASE5.Cadenas.SubcadenaBusqueda",
+            "projectName": "2do-CUATRIMESTRE-TUP_4aa2b35f"
+        },
+        {
+            "type": "java",
+            "name": "RecorridoString",
+            "request": "launch",
+            "mainClass": "CLASES.CLASE5.Cadenas.RecorridoString",
+            "projectName": "2do-CUATRIMESTRE-TUP_4aa2b35f"
+        },
+        {
+            "type": "java",
+            "name": "MayusYMinus",
+            "request": "launch",
+            "mainClass": "CLASES.CLASE5.Cadenas.MayusYMinus",
+            "projectName": "2do-CUATRIMESTRE-TUP_4aa2b35f"
+        },
+        {
+            "type": "java",
+            "name": "ComparacionStrings",
+            "request": "launch",
+            "mainClass": "CLASES.CLASE5.Cadenas.ComparacionStrings",
+            "projectName": "2do-CUATRIMESTRE-TUP_4aa2b35f"
+        },
+        {
+            "type": "java",
+            "name": "LongitudString",
+            "request": "launch",
+            "mainClass": "CLASES.CLASE5.Cadenas.LongitudString",
+            "projectName": "2do-CUATRIMESTRE-TUP_4aa2b35f"
+        },
+        {
+            "type": "java",
+            "name": "Concatenacion",
+            "request": "launch",
+            "mainClass": "CLASES.CLASE5.Cadenas.Concatenacion",
+            "projectName": "2do-CUATRIMESTRE-TUP_4aa2b35f"
+        },
+        {
+            "type": "java",
+            "name": "CreacionString",
+            "request": "launch",
+            "mainClass": "CLASES.CLASE5.Cadenas.CreacionString",
+            "projectName": "2do-CUATRIMESTRE-TUP_4aa2b35f"
+        },
+        {
+            "type": "java",
+            "name": "NotaEstudiante",
+            "request": "launch",
+            "mainClass": "CLASES.CLASE5.EntradaYSalidaDatos.NotaEstudiante",
+            "projectName": "2do-CUATRIMESTRE-TUP_4aa2b35f"
+        },
+        {
+            "type": "java",
+            "name": "AreaRectangulo",
+            "request": "launch",
+            "mainClass": "CLASES.CLASE5.EntradaYSalidaDatos.AreaRectangulo",
+            "projectName": "2do-CUATRIMESTRE-TUP_4aa2b35f"
+        },
+        {
+            "type": "java",
+            "name": "Temperaturas",
+            "request": "launch",
+            "mainClass": "CLASES.CLASE5.EntradaYSalidaDatos.Temperaturas",
+            "projectName": "2do-CUATRIMESTRE-TUP_4aa2b35f"
+        },
+        {
+            "type": "java",
+            "name": "OpMatematicas",
+            "request": "launch",
+            "mainClass": "CLASES.CLASE5.EntradaYSalidaDatos.OpMatematicas",
+            "projectName": "2do-CUATRIMESTRE-TUP_4aa2b35f"
+        },
+        {
+            "type": "java",
+            "name": "DatosPersonales",
+            "request": "launch",
+            "mainClass": "CLASES.CLASE5.EntradaYSalidaDatos.DatosPersonales",
+            "projectName": "2do-CUATRIMESTRE-TUP_4aa2b35f"
+        },
+        {
+            "type": "java",
+            "name": "ControlFlujoContinue",
+            "request": "launch",
+            "mainClass": "CLASES.CLASE5.EstructurasSecuenciales.ControlFlujoContinue",
+            "projectName": "2do-CUATRIMESTRE-TUP_4aa2b35f"
+        },
+        {
+            "type": "java",
+            "name": "ControlFlujo",
+            "request": "launch",
+            "mainClass": "CLASES.CLASE5.EstructurasSecuenciales.ControlFlujo",
+            "projectName": "2do-CUATRIMESTRE-TUP_4aa2b35f"
+        },
+        {
+            "type": "java",
+            "name": "Repetitivas",
+            "request": "launch",
+            "mainClass": "CLASES.CLASE5.EstructurasSecuenciales.Repetitivas",
+            "projectName": "2do-CUATRIMESTRE-TUP_4aa2b35f"
+        },
+        {
+            "type": "java",
+            "name": "Calculadora",
+            "request": "launch",
+            "mainClass": "CLASES.CLASE5.VariablesIntroduccion.Calculadora",
+            "projectName": "2do-CUATRIMESTRE-TUP_4aa2b35f"
+        },
+        {
+            "type": "java",
+            "name": "Arreglos",
+            "request": "launch",
+            "mainClass": "CLASES.CLASE5.VariablesIntroduccion.Arreglos",
+            "projectName": "2do-CUATRIMESTRE-TUP_4aa2b35f"
+        },
+        {
+            "type": "java",
+            "name": "SistemaCalificaciones2SW",
+            "request": "launch",
+            "mainClass": "CLASES.CLASE5.SistemaCalificaciones2SW",
+            "projectName": "2do-CUATRIMESTRE-TUP_4aa2b35f"
+        },
+        {
+            "type": "java",
+            "name": "SistemaCalificaciones2",
+            "request": "launch",
+            "mainClass": "CLASES.CLASE5.SistemaCalificaciones2",
+            "projectName": "2do-CUATRIMESTRE-TUP_4aa2b35f"
+        },
+        {
+            "type": "java",
+            "name": "Numeros2",
+            "request": "launch",
+            "mainClass": "CLASES.CLASE5.Numeros2",
+            "projectName": "2do-CUATRIMESTRE-TUP_4aa2b35f"
+        },
+        {
+            "type": "java",
             "name": "Arreglos",
             "request": "launch",
             "mainClass": "CLASES.CLASE5.Arreglos",
