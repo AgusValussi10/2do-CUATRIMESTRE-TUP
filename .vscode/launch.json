@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MainPrueba",
+            "request": "launch",
+            "mainClass": "CLASES.CLASE6.MainPrueba",
+            "projectName": "2do-CUATRIMESTRE-TUP_b13c304d"
+        },
+        {
+            "type": "java",
+            "name": "GestionEstudiantes",
+            "request": "launch",
+            "mainClass": "CLASES.CLASE5.ArraysEstaticos.GestionEstudiantes",
+            "projectName": "2do-CUATRIMESTRE-TUP_b13c304d"
+        },
+        {
+            "type": "java",
             "name": "RegistroMascotas",
             "request": "launch",
             "mainClass": "CLASES.CLASE5.ArraysEstaticos.RegistroMascotas",

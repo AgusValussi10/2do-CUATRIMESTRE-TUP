@@ -1,9 +1,3 @@
-/*
- * Crea una clase Estudiante con atributos: nombre, edad y promedio. Implementa en la clase
- * ColeccionDeEstudiantes un arreglo de máximo 5 estudiantes, con métodos para: 1. Agregar un
- * estudiante, 2. Listar todos los estudiantes, 3. Modificar los datos de un estudiante dado su
- * nombre, 4. Eliminar un estudiante de la colección.
- */
 package CLASES.CLASE5.ArraysEstaticos;
 
 import java.util.Scanner;
@@ -13,14 +7,13 @@ class Estudiante {
     int edad;
     double promedio;
 
-    // Constructor
     public Estudiante(String nombre, int edad, double promedio) {
         this.nombre = nombre;
         this.edad = edad;
         this.promedio = promedio;
     }
 
-    // Mostrar datos del estudiante
+    @Override
     public String toString() {
         return "Nombre: " + nombre + ", Edad: " + edad + ", Promedio: " + promedio;
     }
@@ -31,7 +24,6 @@ class ColeccionDeEstudiantes {
     private Estudiante[] estudiantes = new Estudiante[5];
     private int contador = 0;
 
-    // 1. Agregar estudiante
     public void agregarEstudiante(Estudiante e) {
         if (contador < estudiantes.length) {
             estudiantes[contador] = e;
@@ -42,7 +34,6 @@ class ColeccionDeEstudiantes {
         }
     }
 
-    // 2. Listar estudiantes
     public void listarEstudiantes() {
         if (contador == 0) {
             System.out.println("No hay estudiantes registrados.");
@@ -53,7 +44,6 @@ class ColeccionDeEstudiantes {
         }
     }
 
-    // 3. Modificar estudiante por nombre
     public void modificarEstudiante(String nombre, String nuevoNombre, int nuevaEdad,
             double nuevoPromedio) {
         for (int i = 0; i < contador; i++) {
@@ -68,11 +58,9 @@ class ColeccionDeEstudiantes {
         System.out.println("Estudiante con nombre '" + nombre + "' no encontrado.");
     }
 
-    // 4. Eliminar estudiante
     public void eliminarEstudiante(String nombre) {
         for (int i = 0; i < contador; i++) {
             if (estudiantes[i].nombre.equalsIgnoreCase(nombre)) {
-                // Mover el último estudiante a la posición eliminada
                 estudiantes[i] = estudiantes[contador - 1];
                 estudiantes[contador - 1] = null;
                 contador--;
@@ -99,11 +87,16 @@ public class GestionEstudiantes {
             System.out.println("4. Eliminar estudiante");
             System.out.println("0. Salir");
             System.out.print("Seleccione una opcion: ");
+
+            while (!sc.hasNextInt()) { // defensivo
+                System.out.print("Ingrese un numero valido: ");
+                sc.next();
+            }
             opcion = sc.nextInt();
             sc.nextLine(); // limpiar buffer
 
             switch (opcion) {
-                case 1 -> {
+                case 1:
                     System.out.print("Ingrese nombre: ");
                     String nombre = sc.nextLine();
                     System.out.print("Ingrese edad: ");
@@ -113,13 +106,15 @@ public class GestionEstudiantes {
                     sc.nextLine();
                     Estudiante e = new Estudiante(nombre, edad, promedio);
                     coleccion.agregarEstudiante(e);
-                }
-                case 2 -> {
+                    break;
+
+                case 2:
                     coleccion.listarEstudiantes();
-                }
-                case 3 -> {
+                    break;
+
+                case 3:
                     System.out.print("Ingrese nombre del estudiante a modificar: ");
-                    String nombre = sc.nextLine();
+                    String nombreMod = sc.nextLine();
                     System.out.print("Nuevo nombre: ");
                     String nuevoNombre = sc.nextLine();
                     System.out.print("Nueva edad: ");
@@ -127,19 +122,25 @@ public class GestionEstudiantes {
                     System.out.print("Nuevo promedio: ");
                     double nuevoPromedio = sc.nextDouble();
                     sc.nextLine();
-                    coleccion.modificarEstudiante(nombre, nuevoNombre, nuevaEdad, nuevoPromedio);
-                }
-                case 4 -> {
+                    coleccion.modificarEstudiante(nombreMod, nuevoNombre, nuevaEdad, nuevoPromedio);
+                    break;
+
+                case 4:
                     System.out.print("Ingrese nombre del estudiante a eliminar: ");
                     String nombreEliminar = sc.nextLine();
                     coleccion.eliminarEstudiante(nombreEliminar);
-                }
-                case 0 -> System.out.println("Saliendo del programa...");
-                default -> System.out.println("Opcion invalida, intente de nuevo.");
+                    break;
+
+                case 0:
+                    System.out.println("Saliendo del programa...");
+                    break;
+
+                default:
+                    System.out.println("Opcion invalida, intente de nuevo.");
+                    break;
             }
         } while (opcion != 0);
 
         sc.close();
     }
 }
-

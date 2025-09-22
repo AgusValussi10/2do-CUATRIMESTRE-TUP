@@ -7,5 +7,6 @@
     "java.format.settings.profile": "GoogleStyle",
     "editor.defaultFormatter": "redhat.java",
     "cSpell.language": "es,en",
-    "cSpell.enabled": true
+    "cSpell.enabled": true,
+    "java.debug.settings.onBuildFailureProceed": true
 }
